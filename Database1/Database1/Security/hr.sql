@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [StanowiskoPracy]
 (
-[NazwaID] INT NOT NULL,
-[Nazwa] NVARCHAR (25) NOT NULL,
+[StanowiskoID] INT NOT NULL,
+[NazwaStanowiska] NVARCHAR (25) NOT NULL,
 );
 GO
 CREATE TABLE [Zespoly]
@@ -110,6 +110,8 @@ INSERT [dbo].[Wyplaty] ([PracowikID], [Kwota], [Premia], [Pensja], [OkresOd], [O
 INSERT [dbo].[Wyplaty] ([PracowikID], [Kwota], [Premia], [Pensja], [OkresOd], [OkresDo]) VALUES (5,15000,1,1,'2015/02/01','2015/03/01')
 
 SET IDENTITY_INSERT [dbo].[Wyplaty] OFF
+
+
 
 
 

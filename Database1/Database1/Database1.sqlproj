@@ -59,8 +59,8 @@
     <Folder Include="Properties" />
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
-    <Folder Include="Raporty\" />
-    <Folder Include="Raporty\Views\" />
+    <Folder Include="rapOp" />
+    <Folder Include="rapOp\Views" />
     <Folder Include="Security\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
@@ -71,14 +71,21 @@
     <Build Include="dbo\Tables\Klienci.sql" />
     <Build Include="dbo\Tables\Cennik.sql" />
     <Build Include="dbo\Tables\Zamowienia.sql" />
-    <Build Include="Raporty\Views\Widok1.sql" />
-    <Build Include="Raporty\Views\Widok3.sql" />
-    <Build Include="Raporty\Views\Widok4.sql" />
+    <Build Include="rapOp\Views\Widok1.sql" />
+    <Build Include="rapOp\Views\Widok3.sql" />
+    <Build Include="rapOp\Views\Widok4.sql" />
     <Build Include="Security\Raporty.sql" />
     <None Include="..\..\..\..\Desktop\projekt\projekt11041.sql">
       <Link>Scripts\projekt11041.sql</Link>
     </None>
     <Build Include="Security\hr.sql" />
     <Build Include="Security\Serwis.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rapOp\Views\widok1HR.sql" />
+    <None Include="rapOp\Views\Widok2.sql" />
+    <None Include="Security\Script1.sql" />
+    <None Include="rapOp\Views\widok2serwis.sql" />
+    <None Include="rapOp\Views\widok3Serwis.sql" />
   </ItemGroup>
 </Project>
